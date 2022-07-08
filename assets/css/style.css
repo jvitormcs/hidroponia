@@ -4,8 +4,17 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #fceae3;
+}
 
-img.hidro-bancada{
+
+img.hidro-bancada, img.galeria{
     width: auto;
     height: 40vh;
+}
+
+
+.galeria{
+    margin-bottom: 1.5rem;
 }
