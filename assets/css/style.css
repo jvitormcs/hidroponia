@@ -9,7 +9,7 @@ body{
 }
 
 
-img.hidro-bancada, img.galeria{
+img.hidro-bancada, .galeria{
     width: auto;
     height: 40vh;
 }
