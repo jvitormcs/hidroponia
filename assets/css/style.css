@@ -4,22 +4,55 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+nav{
+    background-color: #7cbf60;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    color: #276200!important;
+    font-weight: 650;
+    font-size: 1.1rem!important;
+}
+
+div ul li {
+    list-style: none;
+    text-align: left;
+}
+
+nav ul li a:hover{
+    transition: .8s;
+    background-color: #fbfff2!important;
+}
+
 body{
-    background-color: #fceae3;
+    background-color: #fbfff2;
 }
 
-.tamanho{
-    width: 80%;
-    margin-left: 10%;
+
+img.hidro-bancada{
+    width: auto;
+    height: 43.11vh;
 }
 
-img.hidro-bancada, .galeria{
+.galeria{
     width: auto;
     height: 40vh;
 }
 
+.conteudo{
+    background-color: #CFECC0!important;
+    color: #276200;
+    padding: 3% 10%;
+    width: 100%;
+}
 
 .distancia{
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+
+.pE{
+    margin-left: 13rem;
 }
