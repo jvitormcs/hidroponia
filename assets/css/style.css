@@ -8,6 +8,10 @@ body{
     background-color: #fceae3;
 }
 
+.tamanho{
+    width: 80%;
+    margin-left: 10%;
+}
 
 img.hidro-bancada, .galeria{
     width: auto;
@@ -15,6 +19,7 @@ img.hidro-bancada, .galeria{
 }
 
 
-.galeria{
+.distancia{
+    margin-left: 1.5rem;
     margin-bottom: 1.5rem;
 }
