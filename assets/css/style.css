@@ -1,25 +1,25 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
-    background-color: #fceae3;
+body {
+  background-color: #fdfff8;
 }
 
-.tamanho{
-    width: 80%;
-    margin-left: 10%;
+.tamanho {
+  width: 80%;
+  margin-left: 10%;
 }
 
-img.hidro-bancada, .galeria{
-    width: auto;
-    height: 40vh;
+img.hidro-bancada,
+.galeria {
+  width: auto;
+  height: 40vh;
 }
 
-
-.distancia{
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
+.distancia {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
 }
