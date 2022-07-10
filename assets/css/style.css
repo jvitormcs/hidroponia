@@ -4,6 +4,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
+<<<<<<< HEAD
 body {
   background-color: #fdfff8;
 }
@@ -23,3 +24,57 @@ img.hidro-bancada,
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
+=======
+nav{
+    background-color: #7cbf60;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    color: #276200!important;
+    font-weight: 650;
+    font-size: 1.1rem!important;
+}
+
+div ul li {
+    list-style: none;
+    text-align: left;
+}
+
+nav ul li a:hover{
+    transition: .8s;
+    background-color: #fbfff2!important;
+}
+
+body{
+    background-color: #fbfff2;
+}
+
+
+img.hidro-bancada{
+    width: auto;
+    height: 43.11vh;
+}
+
+.galeria{
+    width: auto;
+    height: 40vh;
+}
+
+.conteudo{
+    background-color: #CFECC0!important;
+    color: #276200;
+    padding: 3% 10%;
+    width: 100%;
+}
+
+.distancia{
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.pE{
+    margin-left: 13rem;
+}
+>>>>>>> ccc752a58374593d4445d33b52a65e71b200cb4d
