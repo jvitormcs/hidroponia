@@ -1,58 +1,113 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-nav{
-    background-color: #7cbf60;
-    display: flex;
-    justify-content: center;
+body {
+  background-color: #fdfff8;
 }
+
+
+.tamanho {
+  width: 80%;
+  margin-left: 10%;
+}
+
+img.hidro-bancada,
+.galeria {
+  width: auto;
+  height: 40vh;
+}
+
+.distancia {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+nav {
+  background-color: #7cbf60;
+  display: flex;
+  justify-content: center;
+}
+
+
 nav ul li a{
     color: #1b4400!important;
     font-weight: 650;
     font-size: 1.1rem!important;
 }
 
+div ul li {
+  list-style: none;
+  text-align: left;
+
+}
+
 ul li {
-    list-style: none;
-    text-align: left;
+  list-style: none;
+  text-align: left;
 }
 
-nav ul li a:hover{
-    transition: .8s;
-    background-color: #fbfff2!important;
+nav ul li a:hover {
+  transition: 0.8s;
+  background-color: #fbfff2 !important;
 }
 
-body{
-    background-color: #fbfff2;
+body {
+  background-color: #fbfff2;
 }
 
-
-img.hidro-bancada, img.hidro-torre{
-    width: auto;
-    height: 43.11vh;
+img.hidro-bancada {
+  width: auto;
+  height: 43.11vh;
 }
 
-.galeria{
-    width: auto;
-    height: 40vh;
+.galeria {
+  width: auto;
+  height: 40vh;
 }
 
-.conteudo{
-    background-color: #CFECC0!important;
-    color: #276200;
-    padding: 3% 10%;
-    width: 100%;
+img.hidro-bancada,
+img.hidro-torre {
+  width: auto;
+  height: 43.11vh;
 }
 
-.distancia{
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
+.conteudo {
+  background-color: #cfecc0 !important;
+  color: #276200;
+  padding: 3% 10%;
+  width: 100%;
 }
 
+.distancia {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
-.pE{
-    margin-left: 13rem;
+.pE {
+  margin-left: 13rem;
+}
+
+.contato-div {
+  background-color: #cfecc0;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contato-div a {
+  text-decoration: none;
+  color: #276200;
+}
+.contato-div p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.pE {
+  margin-left: 13rem;
+}
+
+.texto-home {
+  font-size: 1.2rem;
 }
