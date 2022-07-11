@@ -28,6 +28,7 @@ nav {
   display: flex;
   justify-content: center;
 }
+
 nav ul li a {
   color: #276200 !important;
   font-weight: 650;
