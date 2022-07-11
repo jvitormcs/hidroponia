@@ -25,7 +25,7 @@ img.hidro-bancada,
   margin-bottom: 1.5rem;
 }
 nav {
-  background-color: #7cbf60;
+  background-color: #7cbf60!important;
   display: flex;
   justify-content: center;
 }
