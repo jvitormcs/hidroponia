@@ -15,7 +15,7 @@ nav ul li a{
     font-size: 1.1rem!important;
 }
 
-div ul li {
+ul li {
     list-style: none;
     text-align: left;
 }
@@ -30,7 +30,7 @@ body{
 }
 
 
-img.hidro-bancada{
+img.hidro-bancada, img.hidro-torre{
     width: auto;
     height: 43.11vh;
 }
