@@ -14,68 +14,91 @@
 </head>
 
 <body>
-    <nav class="menu">
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Hidroponia</a>
-                <ul class="dropdown-menu fundo-drop">
-                    <li><a class="dropdown-item" href="hidro-mesa.html">Hidroponia Na Mesa</a></li>
-                    <li><a class="dropdown-item" href="hidro-parede.html">Hidroponia na Parede</a></li>
-                    <li><a class="dropdown-item" href="hidro-torre.html">Hidroponia na Torre</a></li>
-                    <li><a class="dropdown-item" href="hidro-varanda.html">Hidroponia na Varanda</a></li>
-                    <li><a class="dropdown-item" href="hidro-bancada.html">Hidroponia na Bancada</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="galeria.html">Galeria de Fotos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contato.html">Contato</a>
-            </li>
-        </ul>
-    </nav>
-<main class="text-center">
-    <section class="header">
-        <img src="./assets/img/banner-torre.png" alt="uma imagem que no fundo contem uma plantação de alface com um divisor na esquerda que contem escrito hidroponia torre">
-        <h1>Hidroponia TORRE (TO)</h1>
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg bg-light" class="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Hidroponia Residencial</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hidroponia</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hidroponia
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item" href="hidro-mesa.html">Hidroponia de Mesa</a></li>
+                                <li><a class="dropdown-item" href="hidro-parede.html">Hidroponia de Parede</a></li>
+                                <li><a class="dropdown-item" href="hidro-torre.html">Hidroponia de Torre</a></li>
+                                <li><a class="dropdown-item" href="hidro-varanda.html">Hidroponia de Varanda</a></li>
+                                <li><a class="dropdown-item" href="hidro-bancada.html">Hidroponia de Bancada</a></li>
 
-        <p>Hidroponia TORRE é uma hidroponia vertical. Ocupa pouco espaço, porém produz muitos pés.</p>
-        <p>A TORRE além de produzir saladas, serve também como uma floreira para decorar seu jardim ou varandas.</p>
-        <p>O método de irrigação, deste dispositivo hidropônico tipo torre é, enviar a solução nutritiva líquida para o distribuidor instalado no topo, e deixar cair naturalmente ao longo das paredes internas molhando os quatro lados das paredes interna e ao mesmo tempo alimentar as plantas que se encontram nas cavidade das mesmas, dentro das cestinhas.</p>
-    </section>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+                        </li>
+                        </li>
+                    </ul>
 
-    <section class="modelo row col-10">
-        <h2>Modelo:  TO-30L-26F-1655</h2>
-        <img src="./assets/img/TO-30L-26F-1655.png" class="col-2" alt="um cano pvc com uma cesta na base contem 26 furo."/>
-        <ul class="col-6">
-            <li>Altura: 1655mm</li>
-            <li>Diâmetro: ø380mm</li>
-            <li>Reservatório para solução: 30 litros</li>
-            <li>Furos dos sulcos: 26 furos com Cestinha</li>
-            <li>Bomba submersa: 13w 127v 60Hz</li>
-            <li>Coluna d'água:  2,0mca</li>
-            <li>400 a 1.000 l/h</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>DESENHO DE MONTAGEM:</h2>
-        <img src="./assets/img/torre-1.png" alt="desenhos de como são feitas as montagens dos produtos" />
-    </section>
-
-    <section>
-        <h2>FOTOS DE HIDROPONIA TORRE (TO):</h2>
-            <div class="row col-10">
-                <img class="col-3" src="./assets/img/torre-2.png" alt="" />
-                <img class="col-3" src="./assets/img/torre-3.png" alt="" />
-                <img class="col-3" src="./assets/img/torre-4.png?" alt="" />
+                </div>
             </div>
-        
-    </section>
-</main>
+        </div>
+    </nav>
+    <main class="text-center">
+        <section class="header">
+            <img src="./assets/img/banner-torre.png" alt="uma imagem que no fundo contem uma plantação de alface com um divisor na esquerda que contem escrito hidroponia torre">
+            <h1>Hidroponia TORRE (TO)</h1>
+            <div class="text-start pE">
+                <p>Hidroponia TORRE é uma hidroponia vertical. Ocupa pouco espaço, porém produz muitos pés.</p>
+                <p>A TORRE além de produzir saladas, serve também como uma floreira para decorar seu jardim ou varandas.</p>
+                <p>O método de irrigação, deste dispositivo hidropônico tipo torre é, enviar a solução nutritiva líquida para o distribuidor instalado no topo, e deixar cair naturalmente ao longo das paredes internas molhando os quatro lados das paredes interna e ao mesmo tempo alimentar as plantas que se encontram nas cavidade das mesmas, dentro das cestinhas.</p>
+            </div>
+        </section>
+
+        <section class="conteudo mt-3">
+            <h2>Modelo: TO-30L-26F-1655</h2>
+            <div class="row offset-3">
+                <img src="./assets/img/TO-30L-26F-1655.png" class="col-3 hidro-torre" alt="um cano pvc com uma cesta na base contem 26 furo." />
+                <ul class="col-6 mt-5">
+                    <li>Altura: 1655mm</li>
+                    <li>Diâmetro: ø380mm</li>
+                    <li>Reservatório para solução: 30 litros</li>
+                    <li>Furos dos sulcos: 26 furos com Cestinha</li>
+                    <li>Bomba submersa: 13w 127v 60Hz</li>
+                    <li>Coluna d'água: 2,0mca</li>
+                    <li>400 a 1.000 l/h</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>DESENHO DE MONTAGEM:</h2>
+            <img src="./assets/img/torre-1.png" alt="desenhos de como são feitas as montagens dos produtos" />
+        </section>
+
+        <section class="conteudo mt-3">
+            <h2>FOTOS DE HIDROPONIA TORRE (TO):</h2>
+            <div class="row justify-content-evenly col-12 mt-4">
+                <img class="col-3 hidro-torre" src="./assets/img/torre-2.png" alt="" />
+                <img class="col-3 hidro-torre" src="./assets/img/torre-3.png" alt="" />
+                <img class="col-3 hidro-torre" src="./assets/img/torre-4.png?" alt="" />
+            </div>
+
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 

@@ -39,6 +39,11 @@ div ul li {
   text-align: left;
 }
 
+ul li {
+  list-style: none;
+  text-align: left;
+}
+
 nav ul li a:hover {
   transition: 0.8s;
   background-color: #fbfff2 !important;
@@ -56,6 +61,12 @@ img.hidro-bancada {
 .galeria {
   width: auto;
   height: 40vh;
+}
+
+img.hidro-bancada,
+img.hidro-torre {
+  width: auto;
+  height: 43.11vh;
 }
 
 .conteudo {
@@ -80,8 +91,19 @@ img.hidro-bancada {
   margin: 0 auto;
   padding: 20px;
 }
-
 .contato-div a {
   text-decoration: none;
   color: #276200;
+}
+.contato-div p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.pE {
+  margin-left: 13rem;
+}
+
+.texto-home {
+  font-size: 1.2rem;
 }
