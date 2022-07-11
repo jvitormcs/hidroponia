@@ -31,7 +31,7 @@ nav {
 }
 
 
-nav ul li a{
+nav ul li a, a{
     color: #1b4400!important;
     font-weight: 650;
     font-size: 1.1rem!important;
@@ -118,4 +118,17 @@ img.hidro-torre {
 
 .border-bottom {
   border-color: #384c37 !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+    .distancia{
+        margin-left: 1%;
+    }
+
+
+    .conteudo{
+        padding: 3% 5%;
+    }
 }
