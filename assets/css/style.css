@@ -8,6 +8,7 @@ body {
   background-color: #fdfff8;
 }
 
+
 .tamanho {
   width: 80%;
   margin-left: 10%;
@@ -29,15 +30,17 @@ nav {
   justify-content: center;
 }
 
-nav ul li a {
-  color: #276200 !important;
-  font-weight: 650;
-  font-size: 1.1rem !important;
+
+nav ul li a{
+    color: #1b4400!important;
+    font-weight: 650;
+    font-size: 1.1rem!important;
 }
 
 div ul li {
   list-style: none;
   text-align: left;
+
 }
 
 ul li {
