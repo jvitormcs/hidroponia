@@ -112,3 +112,10 @@ img.hidro-torre {
   font-size: 1.2rem;
 }
 
+.footer {
+  background: #7cbf60;
+}
+
+.border-bottom {
+  border-color: #384c37 !important;
+}
