@@ -126,4 +126,18 @@ img.hidro-torre {
     width: auto;
     height: 30vh;
   }
+
+  .contato-div{
+    width: 95%;
+    padding: 3%;
+  }
+
+  .contato-div p {
+    font-size: 1.1rem;
+  }
+
+  .contato-div a{
+    font-size: 1.1rem;
+  }
+
 }
