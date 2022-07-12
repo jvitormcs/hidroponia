@@ -8,7 +8,6 @@ body {
   background-color: #fdfff8;
 }
 
-
 .tamanho {
   width: 80%;
   margin-left: 10%;
@@ -19,20 +18,19 @@ body {
   margin-bottom: 1.5rem;
 }
 nav {
-  background-color: #7cbf60!important;
+  background-color: #7cbf60 !important;
 }
 
-
-nav ul li a, a{
-    color: #1b4400!important;
-    font-weight: 650;
-    font-size: 1.1rem!important;
+nav ul li a,
+a {
+  color: #1b4400 !important;
+  font-weight: 650;
+  font-size: 1.1rem !important;
 }
 
 div ul li {
   list-style: none;
   text-align: left;
-
 }
 
 ul li {
@@ -91,7 +89,6 @@ img.hidro-torre {
   font-weight: 500;
 }
 
-
 .texto-home {
   font-size: 1.2rem;
 }
@@ -104,30 +101,28 @@ img.hidro-torre {
   border-color: #384c37 !important;
 }
 
-
 @media only screen and (max-width: 700px) {
-    
-    .distancia{
-        margin-left: 1%;
-    }
+  .distancia {
+    margin-left: 1%;
+  }
 
-    .pE{
-        margin-left: 2rem;
-    }
+  .pE {
+    margin-left: 2rem;
+  }
 
-    .conteudo{
-        padding: 3% 5%;
-    }
+  .conteudo {
+    padding: 3% 5%;
+  }
 
-    
-.galeria {
+  .galeria {
     width: auto;
     height: 40vh;
     margin-top: 1rem;
   }
-  
+
   img.hidro-bancada,
-  img.hidro-torre {
+  img.hidro-torre,
+  img.hidro-parede {
     width: auto;
     height: 30vh;
   }
