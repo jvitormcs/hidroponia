@@ -14,20 +14,12 @@ body {
   margin-left: 10%;
 }
 
-img.hidro-bancada,
-.galeria {
-  width: auto;
-  height: 40vh;
-}
-
 .distancia {
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
 nav {
   background-color: #7cbf60!important;
-  display: flex;
-  justify-content: center;
 }
 
 
@@ -55,11 +47,6 @@ nav ul li a:hover {
 
 body {
   background-color: #fbfff2;
-}
-
-img.hidro-bancada {
-  width: auto;
-  height: 43.11vh;
 }
 
 .galeria {
@@ -104,9 +91,6 @@ img.hidro-torre {
   font-weight: 500;
 }
 
-.pE {
-  margin-left: 13rem;
-}
 
 .texto-home {
   font-size: 1.2rem;
@@ -127,8 +111,24 @@ img.hidro-torre {
         margin-left: 1%;
     }
 
+    .pE{
+        margin-left: 2rem;
+    }
 
     .conteudo{
         padding: 3% 5%;
     }
+
+    
+.galeria {
+    width: auto;
+    height: 40vh;
+    margin-top: 1rem;
+  }
+  
+  img.hidro-bancada,
+  img.hidro-torre {
+    width: auto;
+    height: 30vh;
+  }
 }
