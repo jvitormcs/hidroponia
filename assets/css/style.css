@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 body {
@@ -14,8 +15,8 @@ body {
 }
 
 .distancia {
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 nav {
   background-color: #7cbf60 !important;
@@ -35,7 +36,7 @@ div ul li {
 
 ul li {
   list-style: none;
-  text-align: left;
+  text-align: center!important;
 }
 
 nav ul li a:hover {
@@ -63,6 +64,7 @@ img.hidro-torre {
   color: #276200;
   padding: 3% 10%;
   width: 100%;
+  text-align: center!important;
 }
 
 .distancia {
@@ -104,10 +106,25 @@ img.hidro-torre {
   border-color: #384c37 !important;
 }
 
+
+.mg-top {
+  margin-top: 35px;
+}
+
+.mg-bt {
+  margin-bottom: 35px;
+}
+
+
 @media only screen and (max-width: 700px) {
   .distancia {
     margin-left: 1%;
   }
+
+  
+h2{
+  font-size: 1.2rem;
+}
 
   .pE {
     margin-left: 2rem;
@@ -142,12 +159,14 @@ img.hidro-torre {
   .contato-div a {
     font-size: 1.1rem;
   }
-}
 
+  
 .mg-top {
-  margin-top: 35px;
+  margin-top: 5%;
 }
 
 .mg-bt {
-  margin-bottom: 35px;
+  margin-bottom: 5%;
+}
+
 }
