@@ -36,7 +36,7 @@ div ul li {
 
 ul li {
   list-style: none;
-  text-align: center!important;
+  text-align: center !important;
 }
 
 nav ul li a:hover {
@@ -64,7 +64,7 @@ img.hidro-torre {
   color: #276200;
   padding: 3% 10%;
   width: 100%;
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .distancia {
@@ -106,7 +106,6 @@ img.hidro-torre {
   border-color: #384c37 !important;
 }
 
-
 .mg-top {
   margin-top: 35px;
 }
@@ -115,16 +114,19 @@ img.hidro-torre {
   margin-bottom: 35px;
 }
 
+.spacing {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 @media only screen and (max-width: 700px) {
   .distancia {
     margin-left: 1%;
   }
 
-  
-h2{
-  font-size: 1.2rem;
-}
+  h2 {
+    font-size: 1.2rem;
+  }
 
   .pE {
     margin-left: 2rem;
@@ -160,13 +162,11 @@ h2{
     font-size: 1.1rem;
   }
 
-  
-.mg-top {
-  margin-top: 5%;
-}
+  .mg-top {
+    margin-top: 5%;
+  }
 
-.mg-bt {
-  margin-bottom: 5%;
-}
-
+  .mg-bt {
+    margin-bottom: 5%;
+  }
 }
