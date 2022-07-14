@@ -54,7 +54,10 @@ img.hidro-torre {
   width: auto;
   height: 50vh;
 }
-
+.hidro-mesa{
+  width: auto;
+  height: 40vh;
+}
 .conteudo {
   background-color: #cfecc0 !important;
   color: #276200;
@@ -181,6 +184,8 @@ img.hidro-torre {
   .mg-bt {
     margin-bottom: 5%;
   }
+
+
 }
 
 @media only screen and (max-width: 320px){
@@ -199,5 +204,8 @@ img.hidro-torre {
     font-size: .95rem!important;
   }
 
+  .titulo{
+    font-size: .857rem;
+  }
 
 }
