@@ -14,10 +14,6 @@ body {
   margin-left: 10%;
 }
 
-.distancia {
-  margin-top: 1.6rem;
-  margin-bottom: 1.6rem;
-}
 nav {
   background-color: #7cbf60 !important;
 }
@@ -67,9 +63,10 @@ img.hidro-torre {
   text-align: center !important;
 }
 
+
 .distancia {
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .pE {
